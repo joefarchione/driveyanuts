@@ -22,7 +22,6 @@ class RandomSolver
 
 	bool check_state()
 	{
-		// check_center
 		return (pieces[0][0] == pieces[1][3])
 		&& (pieces[0][1] == pieces[2][4])
 		&& (pieces[0][2] == pieces[3][5])
