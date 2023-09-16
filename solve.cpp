@@ -92,7 +92,7 @@ int main(int argc, const char** argv) {
 	Piece p5 {1, 6, 4, 2, 5, 3};
 	Piece p6 {1, 6, 5, 3, 2, 4};
 
-	std::array<Piece,7> pieces = {p0, p1, p2, p3, p4, p5, p6};
+	Pieces pieces = {p0, p1, p2, p3, p4, p5, p6};
 
 	auto solver = RandomSolver(pieces);
 	auto solved = solver.solve();
